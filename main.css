@@ -1,0 +1,43 @@
+.game-container {
+	text-align: center;
+}
+.game-container .new-game-container {
+	margin-bottom: 10px;
+}
+.game-container .toss-container {
+	display: none;
+}
+.game-container .toss-container .toss {
+	margin-bottom: 10px;
+}
+.game-container .toss-container .toss-result {
+	display: none;
+	color: steelblue;
+}
+.game-container .grid-container .game-grid{
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.game-container .grid-container .game-grid td{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+}
+.game-container .grid-container .game-grid .pointer {
+	cursor: pointer;
+}
+.game-container .grid-container .game-grid .zero {
+	background: lightgreen;
+}
+.game-container .grid-container .game-grid .cross {
+	background: salmon;
+}
+.game-container .turn-indicator, .game-container .win-indicator {
+	display: none;
+}
+.game-container .turn-indicator.cross {
+	color: salmon;
+}
+.game-container .turn-indicator.zero {
+	color: lightgreen;
+}
